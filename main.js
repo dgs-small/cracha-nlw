@@ -23,7 +23,7 @@ function getGitHubUserInfo() {
             avatar.src = data.avatar_url
             userName.textContent = data.name
             userGitHubNick.textContent = data.login
-            userGitHubAdress.href = data.html_url
+            userGitHubAddress.href = data.html_url
             userBio.textContent = data.bio
     })
 }
