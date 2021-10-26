@@ -77,3 +77,12 @@ ul {
   justify-content: center;
   gap: 0.5rem;
 }
+
+ul li:hover{
+  transition: all 0.2s;
+  transform: scale(1.1);
+  transition-timing-function: linear;
+  box-shadow: 10px gray;
+}
+
+
